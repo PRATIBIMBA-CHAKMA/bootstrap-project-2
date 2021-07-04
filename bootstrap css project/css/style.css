@@ -1,0 +1,189 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu&display=swap');
+header{
+    background: linear-gradient(#17a34c, #7dff84);
+    height:500px;
+    overflow: hidden;
+}
+header .navbar-nav a{
+    color:whitesmoke;
+    font-size: 20px;
+    padding-top: 20px;
+  padding-left: 60px;
+}
+header .navbar-nav a:hover{
+    color: black;
+}
+.navbar-brand{
+    color:whitesmoke;
+    font-size: 40px;
+    font-weight: 800;
+    font-family:sans-serif;
+}
+.navbar-brand:hover{
+    color:whitesmoke;
+}
+header .navbar-nav:last-child{
+    padding-right: 10em;
+}
+header .navbar{
+    padding:.9em;
+}
+.btn{
+    border-radius: 8px;
+}
+.form-control {
+    padding-left: 5px;
+    width: 100%;
+}
+.container .text-center .col-md-10 .col-sm-12 h1
+{
+    font-size: 8.5vmin;
+    font-weight: bold;
+    padding:0.1em 0em;
+    color:white;
+}
+.container .text-center .col-md-10 .col-sm-12 h4{
+    font-weight: 200;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 160px;
+    box-shadow: 0px 2px 15px 0px rgba(8, 7, 7, 0.2);
+    z-index: 1;
+}
+.dropdown a{
+color:whitesmoke;
+padding: 12px 12px;
+text-decoration: none;
+display: block;
+
+}
+.dropdown a:hover{
+    background:rgb(170, 167, 167);
+}
+.pages:hover .dropdown{
+    display: block;
+}
+.d-flex .justify-content-end .mr-auto{
+    padding-top: 200px;
+}
+header .container .text-center .mt-5 .row h4{
+    letter-spacing: 10px;
+}
+.sec1{
+    padding:20vmin 0;
+}
+.sec1 .row .col-md-6 img{
+    width:80%;
+    opacity: 0.8;
+}
+.sec1 .row .col-md-6:last-child{
+    position: relative;
+}
+.sec1 .row .col-md-6 .panel{
+    padding: 4vmin 8vmin 3vmin 8vmin;
+   position: absolute;
+   top:10vmin;
+   left:-18vmin;
+   background: rgb(129, 129, 129);
+   border-radius: 3px;
+   text-align:center;
+   box-shadow:  rgba(0, 0, 0, 0.2);
+   z-index: 1;
+  width: 110vmin;
+   color: rgb(253, 253, 253);
+}
+.sec1 .row .col-md-6 .panel h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.sec1 .row .col-md-6 .panel p{
+    font-size: 15px;
+    color: seashell;
+}
+/*section 2*/
+
+.sec2 .cover .content h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.sec2 .cover .content p{
+    font-size: 20px;
+}
+main{
+    background: linear-gradient(rgb(255, 255, 255),rgb(236, 236, 236), rgb(214, 213, 213));
+    padding-bottom: 100px;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+.container-fluid .numbers{
+    position: relative;
+    z-index:1;
+    background: white;
+    width: 17rem;
+    height:12rem;
+    padding-top: 3.5vmin;
+    margin:1rem;
+    border-radius: 5px;
+
+
+
+}
+.cards1 .card{
+    height: 14rem;
+}
+    .sec2 .cards1 .card {
+        width:22rem;
+        margin:3vmin;
+   ;
+
+}
+.purchase h1{
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+    color: rgb(241, 120, 99);
+    font-size: 50px;
+    font-weight: 700;
+}
+.cards .card-body{
+    padding: 2rem;
+}
+.container4 .cards .card{
+    width:22rem;
+    margin:3vmin;
+    box-shadow: 10px 10px 20px 0px rgb(41, 40, 40)
+}
+.container4 .cards .card .card-body a{
+    background: linear-gradient(rgb(70, 110, 160),rgb(71, 74, 77));
+    border:0px;
+}
+.container4 .cards .card .card-body a:hover{
+background:rgb(16, 61, 107);
+
+}
+.container4 .cards .card-body .card45 {
+height: 20rem;
+}
+.cards .card .card-title{
+    background: rgb(87, 142, 194);
+    font-size: 5vmin;
+    color: rgb(255, 255, 255);
+}
+/*footer*/
+footer{
+    background: rgb(255, 255, 255);
+    padding:   0 0 40px 0;
+
+}
+footer .container-fluid .col-md-5{
+    padding-left: 30px;
+}
+footer .container-fluid .col-md-3{
+    text-align: left;
+    padding-left: 40px;
+}
